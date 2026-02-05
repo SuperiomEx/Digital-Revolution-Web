@@ -194,7 +194,7 @@ export default function TalentSearch({ initialTalents, categories }: Props) {
                   <span>{location}</span>
                 </div>
                 <div className="talent-skills">
-                  {skills.slice(0, 3).map((skill) => (
+                  {skills.slice(0, 4).map((skill) => (
                     <span key={skill} className="skill-tag">
                       {skill}
                     </span>

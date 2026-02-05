@@ -276,4 +276,5 @@ export const categories = [
   '3D',
   'UI/UX',
   'Video',
+  'Escritura'
 ];

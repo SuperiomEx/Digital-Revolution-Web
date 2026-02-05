@@ -1,6 +1,7 @@
 import type { FotografiaGalleryItem } from './types';
 
 export const fotografiaGallery: FotografiaGalleryItem[] = [
+  
   {
     type: 'fotografia',
     image: 'https://picsum.photos/seed/photo1/600/400',

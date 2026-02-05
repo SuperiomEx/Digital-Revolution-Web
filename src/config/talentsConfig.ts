@@ -1,8 +1,13 @@
 export const categories = [
   'Todos',
-  'Core',
+  'Escritura',
   'Diseño',
   'Música',
   'Desarrollo',
+  'HTML/CSS',
   'Arte',
+  'Arte',
+  'Arte',
+  'Arte',
+  'Arte'
 ];

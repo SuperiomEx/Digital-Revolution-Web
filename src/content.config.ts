@@ -11,7 +11,7 @@ const talents = defineCollection({
     // Core Identity (Required for valid profiles)
     name: z.string(),
     role: z.string(),
-    image: z.string().url(),
+    image: z.string(),
 
     // Location & Community
     location: z.string().optional(),

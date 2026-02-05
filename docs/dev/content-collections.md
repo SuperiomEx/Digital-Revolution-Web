@@ -156,7 +156,7 @@ const { name, role, image } = talent.data;
 <div class="card">
   <img src={image} alt={name} />
   <h3>{name}</h3>
-  <p>{role}</p>
+  <p >{role}</p>
 </div>
 ```
 
@@ -176,7 +176,7 @@ export function TalentsGrid({ talents }: Props) {
       {talents.map((talent) => (
         <div key={talent.id}>
           <h3>{talent.data.name}</h3>
-          <p>{talent.data.role}</p>
+          <p >{talent.data.role}</p>
         </div>
       ))}
     </div>
