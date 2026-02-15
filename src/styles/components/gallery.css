@@ -161,10 +161,11 @@
 }
 
 /* Reduced motion */
-@media (prefers-reduced-motion: reduce) {}  
-  .gallery-track {
-    transition: none;
-  }
+@media (prefers-reduced-motion: reduce) {
+}
+.gallery-track {
+  transition: none;
+}
 /* --------------------------------------------------------------
    Root design tokens (puedes vincularlos a tu tema Shadcn/Tailwind)
 ----------------------------------------------------------------- */
@@ -286,8 +287,6 @@
 .hero__title {
   animation: slideUp 0.8s ease-out 0.2s both;
 }
-
-
 
 /* Description animations */
 .hero__description {
